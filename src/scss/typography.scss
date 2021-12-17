@@ -1,4 +1,9 @@
 @import "../scss/breakpoints.scss";
+@import "../scss/variables.scss";
+
+* {
+  font-family: $montserrat;
+}
 
 h1,
 h2,

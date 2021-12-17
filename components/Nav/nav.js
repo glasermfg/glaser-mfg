@@ -1,5 +1,5 @@
-import React, { useState } from "react"
-import { Link } from "gatsby"
+import React, { useState } from "react";
+import { Link } from "gatsby";
 import {
   Collapse,
   Navbar,
@@ -7,67 +7,57 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-} from "reactstrap"
-import "../Nav/nav.scss"
+} from "reactstrap";
 
-const Example = props => {
-  const [isOpen, setIsOpen] = useState(false)
+import "../Nav/nav.scss";
+import logo from "../../src/img/logo.png";
 
-  const toggle = () => setIsOpen(!isOpen)
+const Example = (props) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => setIsOpen(!isOpen);
 
   return (
     <div>
       <Navbar id="nav" expand="lg">
         <NavbarBrand href="/">
           <Link to="/" className="logo">
-            logo
+            <img className="img-fluid" src={logo} alt="glaser mfg" />
           </Link>
         </NavbarBrand>
         <NavbarToggler className="custom-toggler" onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Link
-              </DropdownToggle>
-              <DropdownMenu right className="animate slideIn">
-                <Link to="#">
-                  <DropdownItem>Link</DropdownItem>
-                </Link>
-                <Link to="#">
-                  <DropdownItem>Link</DropdownItem>
-                </Link>
-              </DropdownMenu>
-            </UncontrolledDropdown>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Link
-              </DropdownToggle>
-              <DropdownMenu right className="animate slideIn">
-                <Link to="#">
-                  <DropdownItem>Link</DropdownItem>
-                </Link>
-              </DropdownMenu>
-            </UncontrolledDropdown>
             <NavItem>
-              <Link to="#" className="nav-link">
-                Link
+              <Link to="/residential" className="nav-link">
+                Residential
               </Link>
             </NavItem>
             <NavItem>
-              <Link to="#" className="nav-link">
-                Link
+              <Link to="/commercial" className="nav-link">
+                Commercial
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/glaser-mfg" className="nav-link">
+                Glaser MFG
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/about" className="nav-link">
+                About
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/contact" className="nav-link">
+                Contact
               </Link>
             </NavItem>
           </Nav>
         </Collapse>
       </Navbar>
     </div>
-  )
-}
+  );
+};
 
-export default Example
+export default Example;

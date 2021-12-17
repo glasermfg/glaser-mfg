@@ -107,7 +107,7 @@ var plugins = [{
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-google-fonts/gatsby-ssr */ "./node_modules/gatsby-plugin-google-fonts/gatsby-ssr.js"),
   options: {
     "plugins": [],
-    "fonts": ["cardo:400,700", "poppins:400,700"],
+    "fonts": ["montserrat:400,700"],
     "display": "swap"
   }
 }, {

@@ -12,7 +12,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`cardo\:400,700`, `poppins\:400,700`],
+        fonts: [`montserrat\:400,700`],
         display: "swap",
       },
     },
@@ -59,4 +59,4 @@ module.exports = {
       },
     },
   ],
-}
+};

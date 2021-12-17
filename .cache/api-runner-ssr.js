@@ -1,6 +1,6 @@
 var plugins = [{
       plugin: require('/Users/jarryd/Desktop/dev/glaser-mfg/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
-      options: {"plugins":[],"fonts":["cardo:400,700","poppins:400,700"],"display":"swap"},
+      options: {"plugins":[],"fonts":["montserrat:400,700"],"display":"swap"},
     },{
       plugin: require('/Users/jarryd/Desktop/dev/glaser-mfg/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
