@@ -22,7 +22,7 @@ const Example = (props) => {
       <Navbar id="nav" expand="lg">
         <NavbarBrand href="/">
           <Link to="/" className="logo">
-            <img className="img-fluid" src={logo} alt="glaser mfg" />
+            <img className="img-fluid logo" src={logo} alt="glaser mfg" />
           </Link>
         </NavbarBrand>
         <NavbarToggler className="custom-toggler" onClick={toggle} />

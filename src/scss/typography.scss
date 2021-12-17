@@ -12,6 +12,8 @@ h4,
 h5,
 h6 {
   font-weight: 700;
+  text-transform: uppercase;
+  font-weight: 300;
   @include bp-tablet-sm {
     line-height: 1.6;
   }
@@ -23,6 +25,12 @@ ol,
 ul {
   font-size: 18px;
   line-height: 1.8;
+}
+
+p,
+ul,
+ol {
+  color: $dark-grey;
 }
 
 a {

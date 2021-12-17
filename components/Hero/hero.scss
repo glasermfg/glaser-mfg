@@ -5,4 +5,16 @@
   background: url("../../src/img/hero.jpg") center center no-repeat;
   background-size: cover;
   padding: 200px 0px 200px 0px;
+  .bg {
+    border: 1px solid $light-blue;
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    h1 {
+      color: $white;
+    }
+    p {
+      color: rgba($white, 0.5);
+    }
+  }
 }
