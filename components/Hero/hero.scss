@@ -2,19 +2,34 @@
 @import "../../src/scss/breakpoints.scss";
 
 .hero {
-  background: url("../../src/img/hero.jpg") center center no-repeat;
+  background: linear-gradient(0deg, rgba($black, 0.6), rgba($black, 0.6)),
+    url("../../src/img/hero.jpg") center center no-repeat;
   background-size: cover;
   padding: 200px 0px 200px 0px;
+  margin-top: 85px;
+  @include bp-tablet-sm {
+    padding: 65px 0px 60px 0px;
+  }
   .bg {
-    border: 1px solid $light-blue;
+    border: 1px solid rgba($light-blue, 0.5);
     width: 75%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px;
+    @include bp-tablet-sm {
+      padding: 20px;
+    }
     h1 {
       color: $white;
+      @include bp-tablet-sm {
+        font-size: 18px;
+      }
     }
     p {
       color: rgba($white, 0.5);
+      text-transform: uppercase;
+      @include bp-tablet-sm {
+        font-size: 12px;
+      }
     }
   }
 }

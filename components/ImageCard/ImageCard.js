@@ -8,7 +8,9 @@ const ImageCard = ({ bgImage, btnText, btnLink }) => {
         className="img-card img-fluid"
         style={{ backgroundImage: `url(${bgImage})` }}
       >
-        <Link to={btnLink}>{btnText}</Link>
+        <Link to={btnLink}>
+          {btnText} <i class="fas fa-chevron-right"></i>
+        </Link>
       </div>
     </>
   );

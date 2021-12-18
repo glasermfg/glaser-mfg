@@ -19,7 +19,7 @@ const Example = (props) => {
 
   return (
     <div>
-      <Navbar id="nav" expand="lg">
+      <Navbar id="nav" expand="lg" className="fixed-top">
         <NavbarBrand href="/">
           <Link to="/" className="logo">
             <img className="img-fluid logo" src={logo} alt="glaser mfg" />
