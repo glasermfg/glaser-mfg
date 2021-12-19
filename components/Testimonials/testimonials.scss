@@ -16,6 +16,9 @@
   p {
     &.author {
       font-size: 15px;
+      @include bp-tablet-sm {
+        font-size: 12px;
+      }
     }
   }
 }
