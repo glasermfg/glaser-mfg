@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
+import Fade from "react-reveal/Fade";
 import { Helmet } from "react-helmet";
 import Nav from "../../components/Nav/nav";
 import InnerHero from "../../components/innerHero/innerHero";
@@ -15,18 +16,20 @@ const Commercial = () => {
       </Helmet>
       <Nav />
       <InnerHero title="Commercial" description="description" />
-      <InnerContent>
-        <section className="inner">
-          <Container>
-            {/* One */}
-            <Row>
-              <Col lg="12">
-                <p>content</p>
-              </Col>
-            </Row>
-          </Container>
-        </section>
-      </InnerContent>
+      <Fade>
+        <InnerContent>
+          <section className="inner">
+            <Container>
+              {/* One */}
+              <Row>
+                <Col lg="12">
+                  <p>content</p>
+                </Col>
+              </Row>
+            </Container>
+          </section>
+        </InnerContent>
+      </Fade>
       <Footer />
     </>
   );
