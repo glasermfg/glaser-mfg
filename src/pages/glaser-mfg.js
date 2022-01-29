@@ -4,18 +4,17 @@ import { Helmet } from "react-helmet";
 import Nav from "../../components/Nav/nav";
 import InnerHero from "../../components/innerHero/innerHero";
 import InnerContent from "../../components/innerContent/innerContent";
-import CTA from "../../components/CTA/cta";
 import Footer from "../../components/Footer/footer";
 
 const Glaser = () => {
   return (
     <>
       <Helmet>
-        <title>Inner - Company</title>
+        <title>Glaser MFG - Glaser MFG Water Concepts</title>
         <meta name="description" content="description" />
       </Helmet>
       <Nav />
-      <InnerHero title="inner" description="description" />
+      <InnerHero title="Glaser MFG" description="description" />
       <InnerContent>
         <section className="inner">
           <Container>
@@ -28,7 +27,6 @@ const Glaser = () => {
           </Container>
         </section>
       </InnerContent>
-      <CTA />
       <Footer />
     </>
   );

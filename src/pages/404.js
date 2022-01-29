@@ -1,14 +1,13 @@
-import React from "react"
-import { Container, Row, Col } from "reactstrap"
-import { Helmet } from "react-helmet"
-import { Link } from "gatsby"
-import Nav from "../../components/Nav/nav"
-import InnerHero from "../../components/innerHero/innerHero"
-import InnerContent from "../../components/innerContent/innerContent"
-import CTA from "../../components/CTA/cta"
-import Footer from "../../components/Footer/footer"
+import React from "react";
+import { Container, Row, Col } from "reactstrap";
+import { Helmet } from "react-helmet";
+import { Link } from "gatsby";
+import Nav from "../../components/Nav/nav";
+import InnerHero from "../../components/innerHero/innerHero";
+import InnerContent from "../../components/innerContent/innerContent";
+import Footer from "../../components/Footer/footer";
 
-const About = () => {
+const Error = () => {
   return (
     <>
       <Helmet>
@@ -35,10 +34,9 @@ const About = () => {
           </Row>
         </Container>
       </InnerContent>
-      <CTA />
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default About
+export default Error;

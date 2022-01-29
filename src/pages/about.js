@@ -1,21 +1,23 @@
-import React from "react"
-import { Container, Row, Col } from "reactstrap"
-import { Helmet } from "react-helmet"
-import Nav from "../../components/Nav/nav"
-import InnerHero from "../../components/innerHero/innerHero"
-import InnerContent from "../../components/innerContent/innerContent"
-import CTA from "../../components/CTA/cta"
-import Footer from "../../components/Footer/footer"
+import React from "react";
+import { Container, Row, Col } from "reactstrap";
+import { Helmet } from "react-helmet";
+import Nav from "../../components/Nav/nav";
+import InnerHero from "../../components/innerHero/innerHero";
+import InnerContent from "../../components/innerContent/innerContent";
+import Footer from "../../components/Footer/footer";
 
 const About = () => {
   return (
     <>
       <Helmet>
-        <title>Inner - Company</title>
+        <title>About - Glaser MFG Water Concepts</title>
         <meta name="description" content="description" />
       </Helmet>
       <Nav />
-      <InnerHero title="inner" description="description" />
+      <InnerHero
+        title="About"
+        description="Learn more about Glaser MFG Water Concepts"
+      />
       <InnerContent>
         <section className="inner">
           <Container>
@@ -28,10 +30,9 @@ const About = () => {
           </Container>
         </section>
       </InnerContent>
-      <CTA />
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default About
+export default About;
