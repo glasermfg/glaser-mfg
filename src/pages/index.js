@@ -1,9 +1,9 @@
 import React from "react";
 import Nav from "../../components/Nav/nav";
 import Hero from "../../components/Hero/hero";
-import About from "../../components/About/about";
-import Services from "../../components/Services/services";
-import Testimionials from "../../components/Testimonials/testimonials";
+import About from "../../components/About/About";
+import Services from "../../components/Services/Services";
+import Testimionials from "../../components/Testimonials/Testimonials";
 import Footer from "../../components/Footer/footer";
 
 import { Helmet } from "react-helmet";
