@@ -1,0 +1,13 @@
+@import "../scss/variables.scss";
+@import "../scss/breakpoints.scss";
+
+.inner-content {
+  h2,
+  h3,
+  p {
+    margin-bottom: 30px;
+    @include bp-tablet-sm {
+      margin-bottom: 20px;
+    }
+  }
+}

@@ -15,12 +15,17 @@ const About = () => {
                 <h2>About Glaser MFG Concepts</h2>
                 <hr />
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Vivamus imperdiet nunc sit amet laoreet consequat. Nam
-                  fermentum, felis sit amet lacinia sollicitudin, odio leo
-                  sagittis metus, eu molestie erat leo in massa. Cras quis
-                  feugiat lacus. Suspendisse a eros consequat, consectetur neque
-                  eget.
+                  Whether you are an industrial facility looking for treatment
+                  options for a Cooling Tower, Steam boiler, Closed Loop system,
+                  pre treatment or are a residential customer looking to improve
+                  your drinking water quality we can help.
+                </p>
+                <br />
+                <p>
+                  We tailor all of our water treatment solutions to help
+                  optimize the efﬁciency and performance of your system to help
+                  save you time, money and most importantly of all improve your
+                  water quality.
                 </p>
               </Col>
             </Row>

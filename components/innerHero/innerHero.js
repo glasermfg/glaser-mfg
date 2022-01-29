@@ -14,7 +14,6 @@ const InnerHero = ({ title, description }) => {
               <Col lg="12">
                 <h1>{title}</h1>
                 <hr />
-                <p>{description}</p>
               </Col>
             </Row>
           </Container>
