@@ -117,6 +117,70 @@ const Residential = () => {
                       better.
                     </li>
                   </ul>
+                  <h2>Iron Filtration and Sulfur Systems</h2>
+                  <p>
+                    Our Iron filtration systems work by using a proprietary
+                    blend of media and filtration processes to reduce
+                    contaminants such as iron, sulfur, arsenic, and others. Iron
+                    filtration systems can reduce the amount of iron found in
+                    water throughout your home, removing buildup, protecting
+                    water-using appliances, and reducing staining in your sinks,
+                    tubs, and laundry.
+                  </p>
+                  <p>Some of the Benefits of an Iron filter include:</p>
+                  <ul>
+                    <li>
+                      Removal of poor taste, odors, dirt, rust, organic
+                      contaminants, such as herbicides, pesticides, and
+                      industrial chemicals
+                    </li>
+                    <li>
+                      Ideal for treating iron and sulfur water, acidity, or
+                      bacterial contamination
+                    </li>
+                    <li>Low maintenance</li>
+                    <li>
+                      Experience the joy of Stain and Sulfur-Free Laundry, Sinks
+                      and Appliances
+                    </li>
+                    <li>
+                      Improve Water Pressure, Increased Flow, and longer
+                      equipment Life
+                    </li>
+                  </ul>
+                  <h2>Carbon Filters</h2>
+                  <p>
+                    Granulated Activated Carbon (GAC) is universally recognized
+                    and widely used as an effective adsorbent for a wide variety
+                    of organic contaminants, industrial chemicals, and
+                    trihalomethanes (THMs). Carbon is extremely porous and
+                    provides a large surface area for contaminants to collect,
+                    such as sediment and rust. It will absorb chlorine and other
+                    odors and tastes. It is widely used to treat heavily
+                    chlorinated municipalities, removing harmful chlorine.
+                  </p>
+                  <p>Some of the Benefits of a GAC Filter include:</p>
+                  <ul>
+                    <li>
+                      Removal of sediment, bad tastes, stains, color, and odors.
+                    </li>
+                    <li>
+                      Removes sediment and turbidity as small as 20 microns
+                    </li>
+                    <li>
+                      User-Friendly LCD display shows time of day, regeneration
+                      cycle in progress and remaining capacity
+                    </li>
+                    <li>48-hour memory back up</li>
+                  </ul>
+                  <h2>Filters, RO Membrane and UV Bulbs Replacements</h2>
+                  <p>
+                    We carry a wide variety of replacement components of
+                    Filters, Filter housings, Ultraviolet Sterilizers Bulbs and
+                    sleeves, RO Membranes, Injection Pumps, Valves, fittings,
+                    and other accessories. Call our order desk today for pricing
+                    & availability.
+                  </p>
                 </Col>
               </Row>
             </Container>
