@@ -12,4 +12,12 @@
     margin-top: 0px;
     margin-bottom: 30px;
   }
+  button,
+  img,
+  ul {
+    margin-bottom: 40px;
+    @include bp-tablet-sm {
+      margin-bottom: 20px;
+    }
+  }
 }

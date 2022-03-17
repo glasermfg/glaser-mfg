@@ -2,3 +2,9 @@
 @import "../scss/breakpoints.scss";
 
 // General
+
+.pd-t-10-mb {
+  @include bp-tablet-sm {
+    padding-top: 10px;
+  }
+}

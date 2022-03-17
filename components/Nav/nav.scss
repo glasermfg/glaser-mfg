@@ -40,6 +40,7 @@
 .navbar {
   background: rgba($white, 0.92);
   padding: 0rem 2rem !important;
+  border-bottom: 1px solid rgba($dark-grey, 0.1);
   @include bp-tablet-sm {
     margin-top: 0px !important;
     padding: 0.5rem 1rem !important;
@@ -84,7 +85,10 @@
 .dropdown-menu {
   background: #fff !important;
   transition: 0.2s;
-  box-shadow: 0px 8px 15px rgba(#333, 0.5);
+  box-shadow: 0px 8px 15px rgba(#333, 0.1);
+  border: none !important;
+  border-radius: 0 !important;
+  margin-top: -10px !important;
   .dropdown-item {
     color: #333 !important;
     padding: 10px 15px 10px 15px;
@@ -96,7 +100,7 @@
       border: none;
       transform: translateY(0px);
       box-shadow: none;
-      color: red !important;
+      color: $blue !important;
     }
   }
 }
