@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://website.com/sitemap.xml
-Host: https://website.com
