@@ -32,6 +32,11 @@ const Example = (props) => {
         <NavbarToggler className="custom-toggler" onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
+            <NavItem>
+              <Link to="/about" className="nav-link">
+                About
+              </Link>
+            </NavItem>
             <UncontrolledDropdown inNavbar nav>
               <DropdownToggle caret nav>
                 Industrial Water Treatment
@@ -99,13 +104,13 @@ const Example = (props) => {
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <Link to="/about" className="nav-link">
-                About
+              <Link to="/service-maintenance-plans" className="nav-link">
+                Service & Maintenance
               </Link>
             </NavItem>
             <NavItem>
               <Link to="/contact" className="nav-link">
-                Contact
+                Request A Quote
               </Link>
             </NavItem>
           </Nav>

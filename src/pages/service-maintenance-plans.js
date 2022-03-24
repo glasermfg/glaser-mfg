@@ -7,15 +7,18 @@ import InnerHero from "../../components/innerHero/innerHero";
 import InnerContent from "../../components/innerContent/innerContent";
 import Footer from "../../components/Footer/footer";
 
-const Contact = () => {
+const ServiceMaintenance = () => {
   return (
     <>
       <Helmet>
-        <title>Contact - Glaser MFG Water Concepts</title>
-        <meta name="description" content="description" />
+        <title>Service & Maintenance Plans - Glaser MFG Water Concepts</title>
+        <meta
+          name="description"
+          content="We service most makes and models of home and industrial treatments and testing equipment. We also offer a regularly scheduled maintenance plan to ensure proper, clean filtration and drinking water."
+        />
       </Helmet>
       <Nav />
-      <InnerHero title="Contact" description="description" />
+      <InnerHero title="Service & Maintenance Plans" />
       <Fade>
         <InnerContent>
           <section className="inner">
@@ -24,11 +27,39 @@ const Contact = () => {
               <Row>
                 <Col lg="12">
                   <p>
-                    Please fill out the contact form below and we'll get back to
-                    you as soon as possible.
+                    We service most makes and models of home and industrial
+                    treatments and testing equipment. We also offer a regularly
+                    scheduled maintenance plan to ensure proper, clean
+                    filtration and drinking water. Many products do require
+                    servicing on a regular basis and by registering your
+                    equipment, you leave the guesswork to us. We will contact
+                    you when service is required.
+                  </p>
+                  <h2>Water Testing</h2>
+                  <p>
+                    It’s not a one size fits all – water that comes out of your
+                    tap contains small quantities of many other substances, some
+                    are beneficial, while some can be harmful. We recommend an
+                    initial complimentary water test for us to have a better
+                    understanding on how best to treat your system. This allows
+                    your treatment plan to be sized properly and set up to meet
+                    the exact requirements of your home. We also offer ongoing
+                    testing services to assure that the best water quality is
+                    achieved always.{" "}
+                  </p>
+                  <h2>Installations</h2>
+                  <p>
+                    Once we decide on the best course of action for your home,
+                    the next step is to schedule a professional installation and
+                    your initial setup. We offer a full range of solutions from
+                    Water softeners, Reverse Osmosis, Ultraviolet Sterilizers,
+                    Whole Home Filters, Iron Filters, or something else, and our
+                    qualified technicians will come to your home to ensure
+                    proper installation, setup and programming & will help to
+                    answer any questions you might have about your new system.
                   </p>
                   <form
-                    name="requestquote"
+                    name="requestservice"
                     method="post"
                     data-netlify="true"
                     data-netlify-honeypot="bot-field"
@@ -66,25 +97,13 @@ const Contact = () => {
                       />
                     </div>
                     <div class="form-group">
-                      <select
-                        class="form-select"
-                        aria-label="Type of treatment"
-                      >
-                        <option selected>
-                          What type of treatment are you looking for?
-                        </option>
-                        <option value="industrial">Industrial</option>
-                        <option value="residential">Residential</option>
-                      </select>
-                    </div>
-                    <div class="form-group">
                       <textarea
                         name="message"
                         class="form-control"
                         id="Message-field"
                         aria-label="message field"
                         rows="3"
-                        placeholder="Comments"
+                        placeholder="Equipment you are requesting service on"
                       ></textarea>
                     </div>
                     <button className="btn btn-secondary" type="submit">
@@ -94,7 +113,7 @@ const Contact = () => {
                     <input
                       type="hidden"
                       name="form-name"
-                      value="requestquote"
+                      value="requestservice"
                     />
                   </form>
                 </Col>
@@ -102,10 +121,10 @@ const Contact = () => {
             </Container>
           </section>
         </InnerContent>
+        <Footer />
       </Fade>
-      <Footer />
     </>
   );
 };
 
-export default Contact;
+export default ServiceMaintenance;

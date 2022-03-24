@@ -15,25 +15,25 @@ const Services = () => {
         <section className="services">
           <Container>
             <Row>
-              <Col lg="4">
+              <Col lg="6">
                 <Fade delay={200}>
                   <ImageCard
                     bgImage={res}
-                    btnText="Residential"
-                    btnLink="/residential"
+                    btnText="Residential Water Treatment"
+                    btnLink="/residential-water-treatment"
                   />
                 </Fade>
               </Col>
-              <Col lg="4">
+              <Col lg="6">
                 <Fade delay={400}>
                   <ImageCard
                     bgImage={comm}
-                    btnText="Commercial"
-                    btnLink="/commercial"
+                    btnText="Industrial Water Treatment"
+                    btnLink="/industrial-water-treatment"
                   />
                 </Fade>
               </Col>
-              <Col lg="4">
+              {/* <Col lg="4">
                 <Fade delay={600}>
                   <ImageCard
                     bgImage={res}
@@ -41,7 +41,7 @@ const Services = () => {
                     btnLink="/glaser-mfg"
                   />
                 </Fade>
-              </Col>
+              </Col> */}
             </Row>
           </Container>
         </section>
